@@ -1,0 +1,27 @@
+
+  #chat-container {
+   width: 35vw;
+  height: 35vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: both;
+
+  }
+
+  #response {
+    position: relative;
+  }
+
+  .response-box {
+    width: 300px;
+    background-color: #eee;
+    border-radius: 10px;
+  }
+
+  .response-box p {
+    margin: 10px;
+    color: #333;
+  }

@@ -1,0 +1,30 @@
+<%= stylesheet_link_tag 'chat' %>
+<%= javascript_include_tag 'chat' %>
+
+<div id="chat-container">
+  <div class="container mt-4">
+    <h1>Chat App</h1>
+
+    <%= csrf_meta_tags %>
+
+    <div class="row mt-4">
+      <div class="col-md-6 offset-md-3">
+        <form id="chat-form" action="/generate_response" method="post">
+          <div class="form-group">
+            <label for="message">Enter your message:</label>
+            <input type="text" class="form-control" id="message" name="message">
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="response">
+    </div>
+  </div>
+</div>
+
+
+
+<%= javascript_include_tag 'chat' %>
+
