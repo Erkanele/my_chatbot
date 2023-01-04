@@ -2,7 +2,7 @@
 
 ## Rails application to use OpenAI is engine text-davinci-003 Chat Bot
 
-* Ruby version
+* Ruby version 3.1.3
 - Rails 7.0.4
 
 * System dependencies
