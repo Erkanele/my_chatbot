@@ -24,7 +24,8 @@
 
 
 * Deployment instructions
-1. rails -s 
-2. Go to http://localhost:3000/ and enter message
+1.Go to app/controllers/chat_controller.rb and change "api_key" to your own key. 
+2. rails -s 
+3. Go to http://localhost:3000/ and enter message
 
 * ...
